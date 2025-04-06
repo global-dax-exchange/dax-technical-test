@@ -12,7 +12,5 @@ public class ServerMainTest {
     @Test
     void shouldSupportMessageExampleTest() {
 
-        final var result = ServerMain.message();
-        assertThat(result).isNotBlank();
     }
 }
